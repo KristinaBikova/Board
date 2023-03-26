@@ -1,0 +1,66 @@
+.container{
+}
+.card{
+    border-radius: 4px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 32px;
+    &__item-cover{
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: 240px;
+    }
+    &__info{
+        padding: 8px 0px 0px 0px;
+    }
+    &__card-title{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+        color: #3B82F6;
+    }
+    &__card-price{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+        color: #1E293B;
+    }
+    &__card-adress{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #64748B;
+    }
+    &__card-time{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #64748B;
+    } 
+    &__card-description{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #64748B;
+    }
+}
+.card-img{
+    width: 100%;
+    height: 240px;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+}
+
+
+
+
